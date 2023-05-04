@@ -12,5 +12,5 @@ for char in user_input:
     if char in nato_name:
         empty_list.append(nato_name[char])
 
-
-print(empty_list)
+output = ' '.join(empty_list)
+print(output)
