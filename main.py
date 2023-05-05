@@ -2,7 +2,6 @@ from alphabet import nato_phonetic
 
 nato_name = nato_phonetic()
 
-print(nato_name['A'])
 
 user_input = input("Write your massage: ").upper()
 
