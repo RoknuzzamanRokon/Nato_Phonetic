@@ -12,4 +12,10 @@ for char in user_input:
         empty_list.append(nato_name[char])
 
 output = ' '.join(empty_list)
-print(output)
+big_word = []
+for lan in empty_list:
+    if lan(lan) > 5:
+        big_word.append(lan)
+print(empty_list)
+print("\n")
+print(big_word)
