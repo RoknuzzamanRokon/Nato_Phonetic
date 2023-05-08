@@ -16,7 +16,7 @@ output = ' '.join(empty_list)
 print(output)
 
 big_word = []
-big_word =' '.join([x for x in empty_list if len(x) > 5])
+big_word =' '.join([x.upper() for x in empty_list if len(x) > 5])
 
 # for lan in empty_list:
 #     if len(lan) > 5:
