@@ -9,7 +9,8 @@ def generate_phonetic():
     try:
         output_list = ' '.join([nato_name[num] for num in user])
     except KeyError:
-        print("Sorry, You put a number,but here need a word or a sentence")
+        print("Sorry, You put a number,but here need a word.")
+        generate_phonetic()
     else:
         print(output_list)
 
