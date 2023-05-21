@@ -2,7 +2,6 @@ from alphabet import nato_phonetic
 
 nato_name = nato_phonetic()
 
-
 user_input = input("Write your massage: ").upper()
 
 # empty_list = []
@@ -16,12 +15,11 @@ output = ' '.join(empty_list)
 print(output)
 
 big_word = []
-big_word =' '.join([x.upper() for x in empty_list if len(x) > 5])
+big_word = ' '.join([x.upper() for x in empty_list if len(x) > 5])
 
 # for lan in empty_list:
 #     if len(lan) > 5:
 #         big_word.append(lan)
 
-print(empty_list)
 print("\n")
 print(big_word)
