@@ -9,7 +9,7 @@ empty_list = [nato_name[char] for char in user_input if char in nato_name]
 
 # for char in user_input:
 #     if char in nato_name:
-#         empty_list.append(nato_name[char])
+#         empty_list.append(nto_name[char])
 
 output = ' '.join(empty_list)
 print(output)
