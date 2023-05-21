@@ -4,5 +4,5 @@ nato_name = nato_phonetic()
 
 user = input("Write a message: ")
 
-print(nato_name[user])
+print(nato_name[f"{user}"])
 
